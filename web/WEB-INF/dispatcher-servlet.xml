@@ -15,7 +15,7 @@
     <mvc:resources mapping="/resources/**" location="/resources/"/>
     <mvc:resources mapping="/static/json/**" location="/WEB-INF/json/"/>
     <mvc:resources mapping="/static/css/**" location="/WEB-INF/css/"/>
-    <context:component-scan base-package="controller"/>
+    <context:component-scan base-package="controller,Configuration, Service, DAO"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/"/>

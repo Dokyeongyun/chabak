@@ -1,4 +1,4 @@
-package util;
+package Util;
 
 public class ConsoleUtil {
     public static void exceptionPrint(Exception e) {
