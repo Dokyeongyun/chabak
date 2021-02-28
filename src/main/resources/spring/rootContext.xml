@@ -10,5 +10,5 @@
 
     <import resource="classpath:DB.xml"/>
 
-    <context:component-scan base-package="Configuration, Service, DAO"/>
+    <context:component-scan base-package="ROOT"/>
 </beans>
