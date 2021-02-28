@@ -11,4 +11,5 @@
     <import resource="classpath:DB.xml"/>
 
     <context:component-scan base-package="ROOT"/>
+    <context:component-scan base-package="WebApplication"/>
 </beans>
